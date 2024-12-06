@@ -1,40 +1,44 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
     <head>
-        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/default.css" />
         <script src="tools/indice.js"></script>
-        <script>var current_class="tipos_dados_numbers";</script>
+        <script>
+            var current_class = "tipos_dados_numbers";
+        </script>
         <script src="highlight/highlight.pack.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script>
+            hljs.initHighlightingOnLoad();
+        </script>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Tipos de Dados - numbers</title>
-        <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link
+            href="https://fonts.googleapis.com/css?family=Poppins:400,700"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="css/styles.css" />
     </head>
 
     <body>
+        <div class="page-container">
+            <header>
+                <div class="logo-area">
+                    <img src="img/logo_js.png" alt="logo javascript" />
+                </div>
+                <div class="course-title">
+                    <h1>Aprenda javascript com facilidade do zero</h1>
+                    <h2>Prof. Ivan Lourenço Gomes</h2>
+                </div>
+            </header>
 
-       <div class="page-container">
-           <header>
-               <div class="logo-area">
-                   <img src="img/logo_js.png" alt="logo javascript">
-               </div>
-               <div class="course-title">
-                   <h1>Aprenda javascript com facilidade do zero</h1>
-                   <h2>Prof. Ivan Lourenço Gomes</h2>
-               </div>
-           </header>
-
-           <main>
-               <h3>Tipos de dados - numbers</h3>
-               
-              
+            <main>
+                <h3>Tipos de dados - numbers</h3>
 
                 <p>
-                    Números (ou numbers) podem ser positivos, negativos, inteiros ou decimais (também chamados de floats).
+                    Números (ou numbers) podem ser positivos, negativos,
+                    inteiros ou decimais (também chamados de floats).
                 </p>
 
                 <pre>
@@ -49,8 +53,9 @@
                 </pre>
 
                 <p>
-                    Números são usados para fazer diversos tipos de cálculos. Com eles podemos fazer desde operações aritméticas básicas, comparações e até expressões 
-                    complexas.
+                    Números são usados para fazer diversos tipos de cálculos.
+                    Com eles podemos fazer desde operações aritméticas básicas,
+                    comparações e até expressões complexas.
                 </p>
 
                 <ul>
@@ -81,8 +86,12 @@
                 </ul>
 
                 <p>
-                    A linguagem Javascript suporta diversas operações aritméticas mais complexas por meio do objeto Math e seus diversos métodos, como nos exemplos abaixo.
-                    Não se preocupe agora em entender o conceito de objetos e métodos, pois tudo ficará bem claro em breve quando falarmos dos outros tipos de dados além dos primitivos.
+                    A linguagem Javascript suporta diversas operações
+                    aritméticas mais complexas por meio do objeto Math e seus
+                    diversos métodos, como nos exemplos abaixo. Não se preocupe
+                    agora em entender o conceito de objetos e métodos, pois tudo
+                    ficará bem claro em breve quando falarmos dos outros tipos
+                    de dados além dos primitivos.
                 </p>
 
                 <pre>
@@ -107,8 +116,10 @@
                 </ul>
 
                 <p>
-                    Muitas vezes vamos precisar incrementar variáveis numéricas, principalmente quando começarmos a usar loops. 
-                    Imagine que queiramos somar 5 ao valor de uma variável, temos duas formas de fazer isso:
+                    Muitas vezes vamos precisar incrementar variáveis numéricas,
+                    principalmente quando começarmos a usar loops. Imagine que
+                    queiramos somar 5 ao valor de uma variável, temos duas
+                    formas de fazer isso:
                 </p>
 
                 <pre>
@@ -129,8 +140,10 @@
                     </code>
                 </pre>
 
-                <p>Há ainda outra maneira de incrementar variáveis. Temos operadores incrementais que aumentam (++) ou diminuem (--) o valor de uma 
-                    variável em 1 unidade.
+                <p>
+                    Há ainda outra maneira de incrementar variáveis. Temos
+                    operadores incrementais que aumentam (++) ou diminuem (--) o
+                    valor de uma variável em 1 unidade.
                 </p>
 
                 <pre>
@@ -161,13 +174,14 @@
     
                     </code>
                 </pre>
-                
 
                 <h4>Como converter o tipo de uma variável?</h4>
 
                 <p>
-                    Às vezes, para nos prevenir de erros em nosso código, temos que fazer conversões de tipos de variáveis. Imagine que tivéssemos
-                    aquelas variáveis de ddd e telefone da seguinte maneira:
+                    Às vezes, para nos prevenir de erros em nosso código, temos
+                    que fazer conversões de tipos de variáveis. Imagine que
+                    tivéssemos aquelas variáveis de ddd e telefone da seguinte
+                    maneira:
                 </p>
 
                 <pre>
@@ -190,10 +204,12 @@
                 </pre>
 
                 <p>
-                        Também poderíamos precisar fazer o contrário. É muito comum receber dados de fontes externas em formato string.
-                        Imagine que recebamos uma idade em string e queiramos testar se ela é maior que 18. Devemos usar os 
-                        métodos parseInt (se quisermos número inteiro) ou parseFloat (se quisermos número com decimais) antes de fazer
-                        o teste.
+                    Também poderíamos precisar fazer o contrário. É muito comum
+                    receber dados de fontes externas em formato string. Imagine
+                    que recebamos uma idade em string e queiramos testar se ela
+                    é maior que 18. Devemos usar os métodos parseInt (se
+                    quisermos número inteiro) ou parseFloat (se quisermos número
+                    com decimais) antes de fazer o teste.
                 </p>
 
                 <pre>
@@ -209,33 +225,24 @@
                 </pre>
 
                 <p>
-                    Tenha bastante atenção com as conversões pois nem sempre a falta delas gerará um erro visível, mas pode 
-                    retornar resultados incorretos.
+                    Tenha bastante atenção com as conversões pois nem sempre a
+                    falta delas gerará um erro visível, mas pode retornar
+                    resultados incorretos.
                 </p>
 
                 <div id="bottom-area">
                     <div class="prev-next-link">
-                        <div class="link-aula" id="prev_class">
-                            
-                        </div>
-                        <div class="link-aula" id="next_class">
-                            
-                        </div>
+                        <div class="link-aula" id="prev_class"></div>
+                        <div class="link-aula" id="next_class"></div>
                     </div>
-                    
+
                     <div class="classes">
-                        <h3>
-                            Índice de Aulas
-                        </h3>
-                        <ul id="class_index">
-                        </ul>
+                        <h3>Índice de Aulas</h3>
+                        <ul id="class_index"></ul>
                     </div>
                 </div>
-
-           </main>
-
+            </main>
         </div>
-        <script src="js/scripts.js"></script> 
+        <script src="js/script05.js"></script>
     </body>
-
 </html>
